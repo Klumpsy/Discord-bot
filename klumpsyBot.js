@@ -29,7 +29,7 @@ let searchInput = 'fun';
     searchInput = tokens.slice(1, tokens.length).join(" ");
     }
 
-    if(message.channel.id == "875356593674416159" && tokens[0] === "hi there") { 
+    if(message.channel.id == "875356593674416159" && tokens[0] === "!helloBot") { 
         message.reply(replies[0]);
     } else if (message.channel.id == "875356593674416159" && tokens[0] === "!byeBot") { 
         message.reply(replies[1]);
