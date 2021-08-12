@@ -3,7 +3,7 @@ console.log('Beep Beep');
 const Discord = require("discord.js"); 
 const intents = new Discord.Intents(32767);
 const client = new Discord.Client({intents}); 
-client.login("ODc1MzM5NTA0MTYzMTE5MTc0.YRUFcA.ZPeVUMPpYtO48xMdXlCpaD0owgQ");
+client.login("MY BOT TOKEN, NOT YOURS :)");
 
 client.on('ready', () => { 
     console.log("Hello there");
