@@ -3,12 +3,11 @@ console.log('Beep Beep');
 const Discord = require("discord.js"); 
 const intents = new Discord.Intents(32767);
 const client = new Discord.Client({intents}); 
-client.login("ODc1MzM5NTA0MTYzMTE5MTc0.YRUFcA.S6y2XXGLHCM2egR46t0FXQO24Ow");
+client.login(process.env.BOTTOKEN);
 
 client.on('ready', () => { 
     console.log("Hello there");
 });
-
 
 const replies = ["And hi back to you! Welcome on the server of my master!", "NOOOO don't leave me with my master :(", "Wauw, me? You rock!"]
 
@@ -21,4 +20,6 @@ client.on('messageCreate', message => {
         message.reply(replies[2]);
     };
 });
+
+
 
