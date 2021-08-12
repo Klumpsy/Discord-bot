@@ -1,0 +1,15 @@
+{
+  "name": "discord-klumpsy-bot",
+  "version": "1.0.0",
+  "description": "Bot to run on my personal Discord channel",
+  "main": "klumpsyBot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bart Klumpers",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.0.1",
+    "node": "^16.6.1"
+  }
+}
