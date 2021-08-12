@@ -6,6 +6,7 @@ const fetch = require("node-fetch");
 const Discord = require("discord.js"); 
 const intents = new Discord.Intents(32767);
 const client = new Discord.Client({intents}); 
+
 client.login(process.env.BOTTOKEN);
 
 client.on('ready', () => { 
@@ -16,7 +17,6 @@ client.on('ready', () => {
 const replies = ["And hi back to you! Welcome on the server of my master!", 
                 "NOOOO don't leave me with my master :(",
                 "Wauw, me? You rock!"]
-
 
 client.on('messageCreate', async message => { 
 
